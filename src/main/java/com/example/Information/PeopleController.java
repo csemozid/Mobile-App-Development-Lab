@@ -15,7 +15,7 @@ import javax.validation.Valid;
 import java.util.List;
 
 @RestController
-@RequestMapping("/People")
+@RequestMapping("/Applicant")
 public class PeopleController {
   @Autowired
   private PeopleReprository repository;
